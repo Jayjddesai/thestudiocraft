@@ -1,0 +1,122 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+<title>The Studio Craft - Contact us</title>
+<section id="home" class="header-hero-area contact-page section">
+    <div class="morph-wrap">
+        <!-- morph background animation. -->
+        <svg class="morph" width="1400" height="770" viewBox="0 0 1400 770">
+            <path d="M 262.9,252.2 C 210.1,338.2 212.6,487.6 288.8,553.9 372.2,626.5 511.2,517.8 620.3,536.3 750.6,558.4 860.3,723 987.3,686.5 1089,657.3 1168,534.7 1173,429.2 1178,313.7 1096,189.1 995.1,130.7 852.1,47.07 658.8,78.95 498.1,119.2 410.7,141.1 322.6,154.8 262.9,252.2 Z" />
+        </svg>
+    </div>
+    <!-- morph background animation end. -->
+    <!-- line shape background animation. -->
+    <div class="container-line">
+        <div class="container-line-center">
+            <div class="line-item one"></div>
+            <div class="line-item two"></div>
+            <div class="line-item three"></div>
+            <div class="line-item four"></div>
+        </div>
+    </div>
+    <!-- line shape background animation end. -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <div class="slider-text ">
+                    <h1>Contact Page</h1>
+                    <div class="back-links">
+                        <ul class="list-inline">
+                            <li>
+                                <a href="@Url.Action("Index","Home")">Home</a>
+                            </li>
+                            <li class="active">
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end header hero section. -->
+<!--start address section  -->
+<section class="address-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="col-md-4 col-sm-4 ">
+                    <div class="single-address">
+                        <span class="ti-headphone-alt"></span>
+                        <p class="single-contact-info">
+                            <a href="tel:+919510983341">+91 8866610791</a>
+                            <br><a href="tel:+91886610791"> +91 9510983341</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 ">
+                    <div class="single-address">
+                        <span class="ti-map-alt"></span>
+                        <p>Ahmedabad ,India</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 ">
+                    <div class="single-address">
+                        <span class=" ti-email"></span>
+                        <p class="single-contact-info">
+                            <a href="mailto:info@thestudiocraft.com">info@thestudiocraft.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end address section  -->
+<!--start get-in-touch section  -->
+<section class="get-in-touch-area ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="get-in-touch">
+                    <h2>Get in Touch</h2>
+                    <form id="digita-contact-form" action="/asset/php/contact-mail.php" method="POST">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="Name" name="name" placeholder="Your Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="Email" name="email" placeholder="Example mail@gianttheme">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="Website" name="website" placeholder="Subject">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6">
+                                <div class="form-group">
+                                    <textarea id="Message" class="form-control" rows="3" name="message" placeholder="Write Message"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="submit-button">
+                            <button type="submit" class="comman-btn about-me-btn">
+                                SEND MESSAGE
+                                <img src="@Url.Content("/assets/img/brand-icons/hover-icon.png")" alt="place img" class="">
+                            </button>
+                            <p class="contact-send-message"></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--end get-in-touch section  -->
+<!--MAP AREA -->
+ss
+<!--MAP AREA END -->
+
+

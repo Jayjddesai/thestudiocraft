@@ -1,0 +1,288 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<!-- start header hero section. -->
+<section id="home" class="header-hero-area section">
+    <!-- morph background animation. -->
+    <div class="morph-wrap">
+        <svg class="morph" width="1400" height="770" viewBox="0 0 1400 770">
+            <path d="M 262.9,252.2 C 210.1,338.2 212.6,487.6 288.8,553.9 372.2,626.5 511.2,517.8 620.3,536.3 750.6,558.4 860.3,723 987.3,686.5 1089,657.3 1168,534.7 1173,429.2 1178,313.7 1096,189.1 995.1,130.7 852.1,47.07 658.8,78.95 498.1,119.2 410.7,141.1 322.6,154.8 262.9,252.2 Z" />
+        </svg>
+    </div>
+    <!-- morph background animation end. -->
+    <!-- line shape background animation. -->
+    <div class="container-line">
+        <div class="container-line-center">
+            <div class="line-item one"></div>
+            <div class="line-item two"></div>
+            <div class="line-item three"></div>
+            <div class="line-item four"></div>
+        </div>
+    </div>
+    <!-- line shape background animation end. -->
+    <!-- social button section. -->
+    <div class="hero-social-button" style="    margin-right: 150px;
+    line-height: 50px; position:fixed; transform: rotate(0deg);     left: 1738px;}">
+        <ul class="list-inline socialmediaIcons">
+            @*<li>
+                    <a href="@Url.Action("Index","About")">About</a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index","Contact")">Contact</a>
+                </li>*@
+            @*<li>
+                    <a href="#">Dribbble</a>
+                </li>*@
+
+
+            <li>
+                <a href="https://www.instagram.com/thestudiocraft/"><span class="ti-instagram"></span></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/thestudiocraft/"><span class="ti-facebook"></span></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/channel/UCcVYZpBL0HUlJXdhgbjwWuQ/featured"><span class="ti-youtube"></span></a>
+            </li>
+
+
+
+        </ul>
+    </div>
+    <!-- end social button section. -->
+    <!-- start main container. -->
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <div class="slider-text agency">
+                    <span class="intro-3">Welcome to The Studio Craft.</span>
+                    <h1 class="cd-headline clip is-full-width">
+                        <span></span><span class="cd-words-wrapper">
+                            <b class="is-visible" style="color:white">Creative Agency.<h2> Formulating Intenstions into Designs </h2></b>
+                            <b style="color:white"> Creative Production House.<h2> Crafting Reality into reelity.</h2></b>
+                            <b style="color:white"> Creative Strategic developers.<h2> Developing Emotions into virtual spaces.</h2></b>
+                        </span>
+                    </h1>
+
+
+                </div>
+                <a href="#" class="comman-btn download-btn">see works <img src="@Url.Content("/assets/img/brand-icons/hover-icon.png")" alt="place img" class=""></a>
+            </div>
+        </div>
+    </div>
+    <!-- end main container. -->
+</section>
+<!-- end header hero section. -->
+<!-- start mail-to header hero section. -->
+<section class="hero-social-link-area">
+    <div class="container-fulid">
+        <div class="hero-social-link">
+            <ul class="list-inline">
+                <li>
+                    <a class="mail-to" href="mailto:info@htestudiocraft.com">TheStudioCraft</a>
+                </li>
+            </ul>
+        </div>
+        <div class="scroll-down text-right">
+            <a href="#portfolio" class="scroll-down-btn">scroll down <img src="assets/img/brand-icons/scroll-down-icon-3.png" alt="place img" class="faa-passing animated"></a>
+        </div>
+    </div>
+</section>
+<!-- end mail-to header hero section. -->
+<!-- start portfolio section. -->
+<section id="portfolio" class="feature-area section-padding section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="project-titles">
+                    <li class="active" data-filter="*">All work</li>
+                    <li data-filter=".illustration">Illustration</li>
+                    <li data-filter=".Design">Design</li>
+                    <li data-filter=".consultant">Consultant</li>
+                    <li data-filter=".development">Development</li>
+
+                </ul>
+            </div>
+        </div>
+        <div class="row project-list">
+            <div class="col-md-4 col-sm-6 col-xs-12 illustration grid-item">
+                <div class="single-project-item illustrationimage01">
+                    <div class="project-hover">
+                        <a id="firstlink" class="venobox" data-gall="gall1" href="@Url.Content("/assets/img/feature-img/1.jpg")"><span class="ti-plus"></span></a>
+                        <h3 class="project-heading"><a href="#">Television commercials</a></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 illustration grid-item">
+                <div class="single-project-item illustrationimage02">
+                    <div class="project-hover">
+                        <a class="venobox" data-gall="gall1" href="@Url.Content("/assets/img/feature-img/2.jpg")"><span class="ti-plus"></span></a>
+                        <h3 class="project-heading"><a href="single-portfolio.html">Social media </a><span>branding clips</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 illustration grid-item">
+                <div class="single-project-item illustrationimage03">
+                    <div class="project-hover">
+                        <a class="venobox" data-gall="gall1" href="@Url.Content("/assets/img/feature-img/15.jpg")"><span class="ti-plus"></span></a>
+                        <h3 class="project-heading"><a href="single-portfolio.html">Corporate Movies</a><span></span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 illustration grid-item">
+                <div class="single-project-item illustrationimage04">
+                    <div class="project-hover">
+                        <a class="venobox" data-gall="gall1" href="@Url.Content("/assets/img/feature-img/17.jpg")"><span class="ti-plus"></span></a>
+                        <h3 class="project-heading"><a href="#">Youtube channel</a><span>videos</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 illustration grid-item">
+                <div class="single-project-item illustrationimage05">
+                    <div class="project-hover">
+                        <a class="venobox" data-gall="gall1" href="@Url.Content("/assets/img/feature-img/19.jpg")"><span class="ti-plus"></span></a>
+                        <h3 class="project-heading"><a href="#">Product Videos</a><span></span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 illustration grid-item">
+                <div class="single-project-item illustrationimage06">
+                    <div class="project-hover">
+                        <a class="venobox" data-gall="gall1" href="@Url.Content("/assets/img/feature-img/3.jpg")"><span class="ti-plus"></span></a>
+                        <h3 class="project-heading"><a href="#">Business Videos</a><span></span></h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12 illustration grid-item">
+                <div class="single-project-item illustrationimage07">
+                    <div class="project-hover">
+                        <a class="venobox" data-gall="gall1" href="@Url.Content("/assets/img/feature-img/9.jpg")"><span class="ti-plus"></span></a>
+                        <h3 class="project-heading"><a href="#">Documentry Videos</a><span></span></h3>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--Design-->
+
+            <div class="col-md-4 col-sm-6 col-xs-12 Design photo grid-item">
+                <div class="single-project-item designImage01">
+                    <div class="project-hover">
+                        <a class="venobox" data-gall="gall1" href="@Url.Content("/assets/img/feature-img/25.jpg")"><span class="ti-plus"></span></a>
+                        <h3 class="project-heading"><a href="#">Social Media</a><span>Marketing</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 Design grid-item">
+                <div class="single-project-item designImage02">
+                    <div class="project-hover">
+                        <a class="venobox" data-gall="gall1" href="@Url.Content("/assets/img/feature-img/8.jpg")"><span class="ti-plus"></span></a>
+                        <h3 class="project-heading"><a href="#">Conceptual Marketing</a><span>Designs</span></h3>
+                    </div>
+                </div>
+            </div>
+
+            <!--Consultant-->
+
+            <div class="col-md-4 col-sm-6 col-xs-12 consultant grid-item">
+                <div class="single-project-item consultantImage01">
+                    <div class="project-hover">
+                        <a class="venobox" data-gall="gall1" href="@Url.Content("/assets/img/feature-img/21.jpg")"><span class="ti-plus"></span></a>
+                        <h3 class="project-heading"><a href="single-portfolio.html">Online Marketing</a> <span>strategy</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 consultant grid-item">
+                <div class="single-project-item consultantImage02">
+                    <div class="project-hover">
+                        <a class="venobox" data-gall="gall1" href="@Url.Content("/assets/img/feature-img/23.jpg")"><span class="ti-plus"></span></a>
+                        <h3 class="project-heading"><a href="https://www.youtube.com/watch?v=Vmo2niJZO3o" target="_blank">Product Branding</a> <span>strategy</span></h3>
+                    </div>
+                </div>
+            </div>
+
+            <!--Development-->
+            <div class="col-md-4 col-sm-6 col-xs-12 development grid-item">
+                <div class="single-project-item developmentImage01">
+                    <div class="project-hover">
+                        <a class="venobox" data-gall="gall1" href="@Url.Content("/assets/img/feature-img/27.jpg")"><span class="ti-plus"></span></a>
+                        <h3 class="project-heading"><a href="#">Web Development</a> <span></span></h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12 development grid-item">
+                <div class="single-project-item developmentImage02">
+                    <div class="project-hover">
+                        <a class="venobox" data-gall="gall1" href="@Url.Content("/assets/img/feature-img/26.jpg")"><span class="ti-plus"></span></a>
+                        <h3 class="project-heading"><a href="#">SEO</a> <span></span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="read_more">
+            <a href="#" class="comman-btn download-btn read-more"> more work <img src="@Url.Content("/assets/img/brand-icons/hover-icon.png")" alt="place img" class=""></a>
+        </div>
+    </div>
+</section>
+<!-- end portfolio section. -->
+
+
+
+<section class="testimonial-area section-padding section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h2>Testimonials</h2>
+                    @*<p>Lorem ipsum dolor aniamet, consecte tempor incididunt ut labore niamet dolore tumber tur adipisicing elit labor.</p>*@
+                </div>
+            </div>
+        </div>
+        <div class="jems-testi-active">
+            <div class="jems-testi-wrepper">
+                <div class="jems-testi-inner">
+                    <p class="testi-content">"The studio craft team did an excellent job by illustrating our entire idea into reality. Jay and his team made sure that we were updated throughout the process and gave us insight to convey our intentions well. We would highly recommend the studio craft if you are looking to build your brand online"</p>
+                    <div class="jems-testi-meta">
+                        <img src="@Url.Content("/assets/img/testi-img/review-img.png")" alt="place img">
+                        <h3>Ramesh Marand</h3>
+                        <span>CEO- Shaligram Infotech</span>
+                    </div>
+                </div>
+            </div>
+            <div class="jems-testi-wrepper">
+                <div class="jems-testi-inner">
+                    <p class="testi-content">"We have gone up so much from the great work that the studio craft team has done from launching our Youtube channel to hosting marketing events and promoting our online presence. Our brand get recognized from your efforts. We are happy that the results of your efforts were lasting and helping us to make a mark in the market. Looking forward for a life long branding-partnership"</p>
+                    <div class="jems-testi-meta">
+                        <img src="@Url.Content("/assets/img/testi-img/comment-2.png")" alt="place img">
+                        <h3>Pratima</h3>
+                        <span>Tale Poetry</span>
+                    </div>
+                </div>
+            </div>
+            <div class="jems-testi-wrepper">
+                <div class="jems-testi-inner">
+                    <p class="testi-content">"The Studio craft has made a huge difference to our business with his good work and knowledge of web creation and SEO. Our online presence are better than ever and we are getting more engagements. Thanks to Studio Craft Team."</p>
+                    <div class="jems-testi-meta">
+                        <img src="@Url.Content("/assets/img/testi-img/comment-3.png")" alt="place img">
+                        <h3>Dr. Hiren Patel</h3>
+                        <span>Anant Hospital</span>
+                    </div>
+                </div>
+            </div>
+            @*<div class="jems-testi-wrepper">
+                    <div class="jems-testi-inner">
+                        <p class="testi-content">"What do you need to start a business? Three simple things know your product as better tomer, and have a burning desire to succeed."</p>
+                        <div class="jems-testi-meta">
+                            <img src="@Url.Content("/assets/img/testi-img/comment-1.png")" alt="place img">
+                            <h3>Gary Torres</h3>
+                            <span>CEO at Giant Theme</span>
+                        </div>
+                    </div>
+                </div>*@
+        </div>
+    </div>
+</section>
+
