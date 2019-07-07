@@ -1326,7 +1326,7 @@ a.comman-btn:hover:after {
     transition: all .3s ease-in-out;
 }
 .hero-social-button a {
-    font-size: 14px;
+    font-size: 21px;
     color: #3e4455;
     font-weight: 500;
     -webkit-transition: all .3s ease-in-out;
@@ -5322,4 +5322,9 @@ div#bodyContent span {
 
 .logo a img {
     max-width:80%;
+}
+
+.thankyoupageaddressarea {
+padding-bottom: 100px !important;
+
 }

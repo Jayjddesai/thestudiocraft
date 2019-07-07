@@ -342,7 +342,6 @@
     <Content Include="assets\fonts\themify.eot" />
     <Content Include="assets\fonts\themify.ttf" />
     <Content Include="assets\fonts\themify.woff" />
-    <Content Include="assets\img\feature-img\backup-images.zip" />
     <Content Include="htaccess" />
     <EntityDeploy Include="DB\StudioCraftDB.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
